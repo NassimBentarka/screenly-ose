@@ -132,10 +132,10 @@ fi
 if [ -z "${REPOSITORY}" ]; then
   if [ "$WEB_UPGRADE" = false ]; then
     set -x
-    REPOSITORY=${1:-https://github.com/screenly/anthias.git}
+    REPOSITORY=${1:-https://github.com/NassimBentarka/screenly-ose.git}
   else
     set -e
-    REPOSITORY=https://github.com/screenly/anthias.git
+    REPOSITORY=https://github.com/NassimBentarka/screenly-ose.git
   fi
 fi
 
